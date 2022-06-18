@@ -1,0 +1,24 @@
+{
+  "name": "randomstate/billplan",
+  "description": "Billing Plan Management for PHP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "RandomState\\BillPlan\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RandomState\\BillPlan\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Connor Forsyth",
+      "email": "connor@randomstate.co.uk"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
